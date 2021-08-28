@@ -1,0 +1,60 @@
+2021-08-28 19:34:09.481 -03:00 [INF] Loaded 5 extensions
+2021-08-28 19:34:11.238 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.400\
+2021-08-28 19:34:12.037 -03:00 [INF] Found Visual Studio v16.11.31624.102 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community]
+2021-08-28 19:34:14.260 -03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-28 19:34:14.265 -03:00 [INF] Setting entrypoint to only project in solution: C:\Users\alife\Documents\projects\cSharp\SendAutoScriptX\SendAutoScriptX\SendAutoScriptX.csproj
+2021-08-28 19:34:14.278 -03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-28 19:34:14.396 -03:00 [INF] Initializing upgrade step Back up project
+2021-08-28 19:34:24.712 -03:00 [INF] Skipping upgrade step Back up project
+2021-08-28 19:34:24.714 -03:00 [INF] Upgrade step Back up project skipped
+2021-08-28 19:34:28.390 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-28 19:34:33.432 -03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-28 19:34:33.436 -03:00 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-28 19:34:34.022 -03:00 [INF] [dotnet] C:\Users\alife\Documents\projects\cSharp\SendAutoScriptX\SendAutoScriptX\SendAutoScriptX.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-08-28 19:34:36.635 -03:00 [INF] [dotnet] Conversion complete!
+2021-08-28 19:34:37.610 -03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-28 19:34:41.158 -03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-28 19:34:42.740 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-28 19:34:45.607 -03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-28 19:34:45.620 -03:00 [INF] Packages to be added: Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-28 19:34:49.994 -03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-28 19:34:50.000 -03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603
+2021-08-28 19:34:52.874 -03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-28 19:34:54.629 -03:00 [INF] Initializing upgrade step Update TFM
+2021-08-28 19:34:54.643 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-28 19:34:54.645 -03:00 [INF] TFM needs updated to net5.0-windows
+2021-08-28 19:34:57.866 -03:00 [INF] Applying upgrade step Update TFM
+2021-08-28 19:34:57.870 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-28 19:35:04.427 -03:00 [INF] Updated TFM to net5.0-windows
+2021-08-28 19:35:04.428 -03:00 [INF] Upgrade step Update TFM applied successfully
+2021-08-28 19:35:10.877 -03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-28 19:35:13.008 -03:00 [WRN] No version of FMUtils.KeyboardHook found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-28 19:35:14.012 -03:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-08-28 19:35:14.015 -03:00 [INF] Packages to be added: Operation { Item = Microsoft.Windows.Compatibility, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-28 19:35:17.123 -03:00 [INF] Applying upgrade step Update NuGet Packages
+2021-08-28 19:35:17.125 -03:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-08-28 19:35:27.322 -03:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-08-28 19:35:27.911 -03:00 [WRN] No version of FMUtils.KeyboardHook found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-28 19:35:27.927 -03:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-08-28 19:35:30.360 -03:00 [WRN] No version of FMUtils.KeyboardHook found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-28 19:35:30.370 -03:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-08-28 19:35:32.104 -03:00 [INF] Initializing upgrade step Add template files
+2021-08-28 19:35:32.113 -03:00 [INF] 0 expected template items needed
+2021-08-28 19:35:32.114 -03:00 [INF] Initializing upgrade step Upgrade app config files
+2021-08-28 19:35:32.147 -03:00 [INF] Found 0 app settings for upgrade: 
+2021-08-28 19:35:32.150 -03:00 [INF] Found 0 connection strings for upgrade: 
+2021-08-28 19:35:32.159 -03:00 [INF] Initializing upgrade step Update source code
+2021-08-28 19:35:32.164 -03:00 [INF] Running analyzers on SendAutoScriptX
+2021-08-28 19:35:33.828 -03:00 [INF] Identified 0 diagnostics in project SendAutoScriptX
+2021-08-28 19:35:33.857 -03:00 [INF] Initializing upgrade step Move to next project
+2021-08-28 19:35:43.002 -03:00 [INF] Applying upgrade step Move to next project
+2021-08-28 19:35:43.003 -03:00 [INF] Upgrade step Move to next project applied successfully
+2021-08-28 19:35:44.548 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-28 19:35:44.557 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-28 19:35:44.561 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-28 19:35:44.563 -03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-28 19:35:44.567 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-28 19:35:48.648 -03:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-28 19:35:48.649 -03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-28 19:35:50.737 -03:00 [INF] Upgrade has completed. Please review any changes.
+2021-08-28 19:35:50.743 -03:00 [INF] No state to save
